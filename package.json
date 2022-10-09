@@ -1,0 +1,22 @@
+{
+  "name": "lumion",
+  "version": "1.0.0",
+  "description": "a static website generation based on react",
+  "main": "index.ts",
+  "scripts": {
+    "start": "webpack",
+    "test": "node ./dist/bundle.js"
+  },
+  "author": "leo",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "dotenv-webpack": "^8.0.1",
+    "path-browserify": "^1.0.1"
+  }
+}
