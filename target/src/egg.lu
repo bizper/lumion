@@ -1,0 +1,11 @@
+@title Auto-Generation
+@template t1
+
+@text('md')
+//markdown text here
+@end
+
+@link('')
+@link...
+
+@comment on
